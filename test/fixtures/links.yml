@@ -4,12 +4,12 @@ one:
   url: MyString
   description: MyText
   author_id: 1
-  published: 
+  published: true
   published_at: 2013-08-03 15:33:19
 
 two:
   url: MyString
   description: MyText
   author_id: 1
-  published: 
+  published: false
   published_at: 2013-08-03 15:33:19
