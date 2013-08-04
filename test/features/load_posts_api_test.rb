@@ -15,7 +15,6 @@ feature "Load Posts API" do
 
   scenario "Using default path" do
     visit '/posts.json'
-    skip "wtf"
     json_parsed(page.body).must_equal json_fixture("posts")
   end
 

@@ -9,6 +9,6 @@ one:
 two:
   id: 2
   url: "http://scottwindsor.com"
-  description: "Scott's Site"
+  description: "Scott's site"
   author_id: 1
   published: false
