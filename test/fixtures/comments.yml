@@ -1,13 +1,6 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
 one:
-  post: one
-  author: two
-  body: MyText
-  deleted: false
-
-two:
-  post: one
-  author: two
-  body: MyText
+  id: 1
+  post_id: 1
+  author_id: 2
+  body: "Great site!"
   deleted: false

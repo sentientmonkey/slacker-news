@@ -1,15 +1,14 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
 one:
-  url: MyString
-  description: MyText
-  author: one
+  id: 1
+  url: "http://technicalspiders.com"
+  description: Great blog about software
+  author_id: 1
   published: true
-  published_at: 2013-08-03 15:33:19
+  published_at: "2013-08-04T21:15:29.671Z"
 
 two:
-  url: MyString
-  description: MyText
-  author: one
+  id: 2
+  url: "http://scottwindsor.com"
+  description: "Scott's Site"
+  author_id: 1
   published: false
-  published_at: 2013-08-03 15:33:19

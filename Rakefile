@@ -4,3 +4,5 @@
 require File.expand_path('../config/application', __FILE__)
 
 SlackerNews::Application.load_tasks
+
+MiniTest::Rails::Testing.default_tasks << "features"

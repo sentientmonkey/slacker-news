@@ -1,24 +1,24 @@
 {
-  "links": [
+  "posts": [
     {
-      "link_id": 1,
-      "rel": "http://localhost:3000/api/links/1",
+      "post_id": 1,
+      "href": "http://www.example.com/api/posts/1",
       "url": "http://technicalspiders.com",
-      "published_at": "2013-08-03T22:43:00.000Z",
+      "published_at": "2013-08-04T21:15:29.671Z",
       "author": {
-        "author_id": 3,
-        "rel": "http://localhost:3000/api/authors/3",
+        "author_id": 1,
+        "href": "http://www.example.com/api/authors/1",
         "name": "Scott Windsor",
         "email": "swindsor@gmail.com"
       },
       "comments": [
         {
           "comment_id": 1,
-          "rel": "http://localhost:3000/api/links/1/comments/1",
+          "href": "http://www.example.com/api/posts/1/comments/1",
           "body": "Great site!",
           "author": {
-            "author_id": 4,
-            "rel": "http://localhost:3000/api/authors/4",
+            "author_id": 2,
+            "href": "http://www.example.com/api/authors/2",
             "name": "Anon User",
             "email": "anon@example.com"
           }

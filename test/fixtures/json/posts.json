@@ -1,0 +1,16 @@
+[
+  {
+    "url": "http://www.example.com/posts/1.json",
+    "description": "Great blog about software",
+    "author_id": 1,
+    "published": true,
+    "published_at": "2013-08-04T21:15:29.671Z"
+  },
+  {
+    "url": "http://www.example.com/posts/2.json",
+    "description": "Scott's site",
+    "author_id": 1,
+    "published": false,
+    "published_at": null
+  }
+]
