@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  link_id: 1
-  author_id: 1
+  link: one
+  author: two
   body: MyText
   deleted: false
 
 two:
-  link_id: 1
-  author_id: 1
+  link: one
+  author: two
   body: MyText
   deleted: false

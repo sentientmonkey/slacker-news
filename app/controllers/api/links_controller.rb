@@ -1,5 +1,6 @@
 class Api::LinksController < ApplicationController
   respond_to :json
+  before_action :set_link, only: [:show, :update, :destroy]
 
   def index
     @links = Link.published
@@ -7,7 +8,6 @@ class Api::LinksController < ApplicationController
   end
 
   def show
-    @link = Link.published.find params[:id]
     respond_with @link
   end
 
@@ -18,18 +18,20 @@ class Api::LinksController < ApplicationController
   end
 
   def update
-    @link = Link.published.find params[:id]
     @link.update link_params
     respond_with @link
   end
 
   def destroy
-    @link = Link.published.find params[:id]
     @link.destroy
     respond_with @link
   end
 
   private
+
+  def set_link
+    @link = Link.published.find params[:id]
+  end
 
   def link_params
     params.require(:link).permit(:url, :description, :author_id)

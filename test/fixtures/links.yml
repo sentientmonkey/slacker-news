@@ -3,13 +3,13 @@
 one:
   url: MyString
   description: MyText
-  author_id: 1
+  author: one
   published: true
   published_at: 2013-08-03 15:33:19
 
 two:
   url: MyString
   description: MyText
-  author_id: 1
+  author: one
   published: false
   published_at: 2013-08-03 15:33:19
