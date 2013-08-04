@@ -1,4 +1,4 @@
-RailsApiExample::Application.routes.draw do
+SlackerNews::Application.routes.draw do
   resources :comments
   resources :posts
   resources :authors

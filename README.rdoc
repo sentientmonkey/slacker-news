@@ -1,4 +1,5 @@
 == README
 
-There are many rails apps, but this one is mine.
+This is a demo application, Slacker News. It's a simple link blog that allows users to comment on the links posted. This is entirely designed to explore ideas around API design with rails, and not designed for actual use. Many things (like authentication, security/etc) would be required for this to be a real site.
 
+Feel free to use this site as a reference, or to get inspiration from. It's MIT licensed, so fork and go to town.

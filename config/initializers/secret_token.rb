@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-RailsApiExample::Application.config.secret_key_base = 'a02dbecdb5467cd2818124101e466253139b017619bfe2907cdc657541e6b5bf8822373b96dbf147d89c2d88f6f6576af8fa5df78d2c50d18eda8f73f9fec502'
+SlackerNews::Application.config.secret_key_base = 'a02dbecdb5467cd2818124101e466253139b017619bfe2907cdc657541e6b5bf8822373b96dbf147d89c2d88f6f6576af8fa5df78d2c50d18eda8f73f9fec502'

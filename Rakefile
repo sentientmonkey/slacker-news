@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RailsApiExample::Application.load_tasks
+SlackerNews::Application.load_tasks
