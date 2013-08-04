@@ -1,11 +1,11 @@
 class PostSerializer < ActiveModel::Serializer
-  attributes :post_id, :rel, :url, :published_at
+  attributes :post_id, :href, :url, :published_at
 
   def post_id
     object.id
   end
 
-  def rel
+  def href
     api_post_url object
   end
 

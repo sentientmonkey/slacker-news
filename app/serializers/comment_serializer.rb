@@ -1,11 +1,11 @@
 class CommentSerializer < ActiveModel::Serializer
-  attributes :comment_id, :rel, :body
+  attributes :comment_id, :href, :body
 
   def comment_id
     object.id
   end
 
-  def rel
+  def href
     api_post_comment_url object.post, object
   end
 
