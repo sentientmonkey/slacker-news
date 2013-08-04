@@ -1,9 +1,9 @@
 require "test_helper"
 
-describe Api::LinksController do
-  fixtures :links, :authors
+describe Api::PostsController do
+  fixtures :posts, :authors
 
-  let(:link){ links(:one) }
+  let(:a_post){ posts(:one) }
 
   let(:params) do
     {url: "http://example.com",
@@ -12,7 +12,7 @@ describe Api::LinksController do
   end
 
   it "should get show" do
-    get :show, id: link.id, format: "json"
+    get :show, id: a_post.id, format: "json"
     assert_response :success
   end
 
@@ -22,17 +22,17 @@ describe Api::LinksController do
   end
 
   it "should post create" do
-    post :create, link: params, format: "json"
+    post :create, post: params, format: "json"
     assert_response :success
   end
 
   it "should put update" do
-    put :update, id: link.id, link: params, format: "json"
+    put :update, id: a_post.id, post: params, format: "json"
     assert_response :success
   end
 
   it "should delete destroy" do
-    delete :destroy, id: link.id, format: "json"
+    delete :destroy, id: a_post.id, format: "json"
     assert_response :success
   end
 

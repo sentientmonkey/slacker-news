@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "link_id": 1,
+      "rel": "http://localhost:3000/api/links/1",
+      "url": "http://technicalspiders.com",
+      "published_at": "2013-08-03T22:43:00.000Z",
+      "author": {
+        "author_id": 3,
+        "rel": "http://localhost:3000/api/authors/3",
+        "name": "Scott Windsor",
+        "email": "swindsor@gmail.com"
+      },
+      "comments": [
+        {
+          "comment_id": 1,
+          "rel": "http://localhost:3000/api/links/1/comments/1",
+          "body": "Great site!",
+          "author": {
+            "author_id": 4,
+            "rel": "http://localhost:3000/api/authors/4",
+            "name": "Anon User",
+            "email": "anon@example.com"
+          }
+        }
+      ]
+    }
+  ]
+}

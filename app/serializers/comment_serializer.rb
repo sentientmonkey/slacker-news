@@ -6,7 +6,7 @@ class CommentSerializer < ActiveModel::Serializer
   end
 
   def rel
-    api_link_comment_url object.link, object
+    api_post_comment_url object.post, object
   end
 
   has_one :author

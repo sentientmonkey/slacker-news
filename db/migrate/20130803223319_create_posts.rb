@@ -1,6 +1,6 @@
-class CreateLinks < ActiveRecord::Migration
+class CreatePosts < ActiveRecord::Migration
   def change
-    create_table :links do |t|
+    create_table :posts do |t|
       t.string :url, null: false
       t.text :description
       t.integer :author_id, null: false

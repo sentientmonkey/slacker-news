@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  link: one
+  post: one
   author: two
   body: MyText
   deleted: false
 
 two:
-  link: one
+  post: one
   author: two
   body: MyText
   deleted: false

@@ -1,7 +1,7 @@
 require "test_helper"
 
-describe LinksController do
-  fixtures :links
+describe PostsController do
+  fixtures :posts
 
   it "should get index" do
     get :index
@@ -9,7 +9,7 @@ describe LinksController do
   end
 
   it "should get show" do
-    get :show, id: links(:one).id, format: "json"
+    get :show, id: posts(:one).id, format: "json"
     assert_response :success
   end
 

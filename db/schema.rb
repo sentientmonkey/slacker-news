@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20130803223418) do
   end
 
   create_table "comments", force: true do |t|
-    t.integer  "link_id",                   null: false
+    t.integer  "post_id",                   null: false
     t.integer  "author_id",                 null: false
     t.text     "body"
     t.boolean  "deleted",    default: true, null: false
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20130803223418) do
     t.datetime "updated_at"
   end
 
-  create_table "links", force: true do |t|
+  create_table "posts", force: true do |t|
     t.string   "url",                         null: false
     t.text     "description"
     t.integer  "author_id",                   null: false
